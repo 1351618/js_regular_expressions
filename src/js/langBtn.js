@@ -1,7 +1,7 @@
 const langHTML = document.documentElement;
 const langBtn = document.getElementById("langBtn");
 
-const langList = ["en", "ru"];
+const langList = ["en", "ru", "el"];
 let locStor = localStorage.getItem("language") || langList[0];
 
 function setLanguage(lang) {

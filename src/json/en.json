@@ -3,6 +3,23 @@
     "title": "Regular Expressions",
     "items": [
       {
+        "category": "Syntax",
+        "items": [
+          {
+            "code": "regexp = new RegExp('pattern', 'flags');",
+            "description": "Long syntax."
+          },
+          {
+            "code": "regexp = /pattern/",
+            "description": "Short syntax, without flags."
+          },
+          {
+            "code": "regexp = /pattern/gmi;",
+            "description": "Short syntax, with flags gmi."
+          }
+        ]
+      },
+      {
         "category": "Metacharacters",
         "items": [
           {
@@ -19,11 +36,11 @@
           },
           {
             "code": "\\w",
-            "description": "Matches any letter, digit, or underscore."
+            "description": "Matches any alphanumeric character or underscore."
           },
           {
             "code": "\\W",
-            "description": "Matches any character except a letter, digit, or underscore."
+            "description": "Matches any character except an alphanumeric character or underscore."
           },
           {
             "code": "\\s",
@@ -32,6 +49,42 @@
           {
             "code": "\\S",
             "description": "Matches any character except whitespace."
+          },
+          {
+            "code": "^",
+            "description": "Matches the start of a string."
+          },
+          {
+            "code": "$",
+            "description": "Matches the end of a string."
+          },
+          {
+            "code": "|",
+            "description": "Matches one of the alternative options."
+          },
+          {
+            "code": "()",
+            "description": "Used for grouping expressions."
+          },
+          {
+            "code": "[]",
+            "description": "Defines a character class."
+          },
+          {
+            "code": "{}",
+            "description": "Specifies the number of repetitions."
+          },
+          {
+            "code": "?",
+            "description": "Matches zero or one occurrence of the preceding character."
+          },
+          {
+            "code": "+",
+            "description": "Matches one or more occurrences of the preceding character."
+          },
+          {
+            "code": "\\",
+            "description": "Escapes special characters."
           }
         ]
       },
