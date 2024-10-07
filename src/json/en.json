@@ -1,0 +1,162 @@
+{
+  "regular_expressions": {
+    "title": "Regular Expressions",
+    "items": [
+      {
+        "category": "Metacharacters",
+        "items": [
+          {
+            "code": ".",
+            "description": "Matches any character except a newline."
+          },
+          {
+            "code": "\\d",
+            "description": "Matches any digit (0-9)."
+          },
+          {
+            "code": "\\D",
+            "description": "Matches any character except a digit."
+          },
+          {
+            "code": "\\w",
+            "description": "Matches any letter, digit, or underscore."
+          },
+          {
+            "code": "\\W",
+            "description": "Matches any character except a letter, digit, or underscore."
+          },
+          {
+            "code": "\\s",
+            "description": "Matches any whitespace character."
+          },
+          {
+            "code": "\\S",
+            "description": "Matches any character except whitespace."
+          }
+        ]
+      },
+      {
+        "category": "Anchors",
+        "items": [
+          {
+            "code": "^",
+            "description": "Matches the start of a string."
+          },
+          {
+            "code": "$",
+            "description": "Matches the end of a string."
+          }
+        ]
+      },
+      {
+        "category": "Quantifiers",
+        "items": [
+          {
+            "code": "*",
+            "description": "Matches zero or more of the preceding character."
+          },
+          {
+            "code": "+",
+            "description": "Matches one or more of the preceding character."
+          },
+          {
+            "code": "?",
+            "description": "Matches zero or one of the preceding character."
+          },
+          {
+            "code": "{n}",
+            "description": "Matches exactly n occurrences of the preceding character."
+          },
+          {
+            "code": "{n,}",
+            "description": "Matches n or more occurrences of the preceding character."
+          },
+          {
+            "code": "{n,m}",
+            "description": "Matches between n and m occurrences of the preceding character."
+          }
+        ]
+      },
+      {
+        "category": "Character Classes",
+        "items": [
+          {
+            "code": "[abc]",
+            "description": "Matches any of the characters a, b, or c."
+          },
+          {
+            "code": "[^abc]",
+            "description": "Matches any character except a, b, or c."
+          },
+          {
+            "code": "[a-z]",
+            "description": "Matches any character in the range a to z."
+          },
+          {
+            "code": "[0-9]",
+            "description": "Matches any digit."
+          }
+        ]
+      },
+      {
+        "category": "Groups and Alternatives",
+        "items": [
+          {
+            "code": "(abc)",
+            "description": "A group that matches the string 'abc'."
+          },
+          {
+            "code": "a|b",
+            "description": "Matches a or b."
+          }
+        ]
+      },
+      {
+        "category": "Escapes",
+        "items": [
+          {
+            "code": "\\",
+            "description": "Escapes the next character."
+          },
+          {
+            "code": "\\b",
+            "description": "Matches a word boundary."
+          },
+          {
+            "code": "\\B",
+            "description": "Matches a non-word boundary."
+          }
+        ]
+      },
+      {
+        "category": "Flags",
+        "items": [
+          {
+            "code": "g",
+            "description": "Global search throughout the text."
+          },
+          {
+            "code": "i",
+            "description": "Case-insensitive matching."
+          },
+          {
+            "code": "m",
+            "description": "Multi-line mode."
+          },
+          {
+            "code": "s",
+            "description": "Dot (.) matches newline characters."
+          },
+          {
+            "code": "u",
+            "description": "Enables Unicode matching."
+          },
+          {
+            "code": "y",
+            "description": "Sticky search that matches from the current position."
+          }
+        ]
+      }
+    ]
+  }
+}
